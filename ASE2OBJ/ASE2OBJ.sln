@@ -1,0 +1,29 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 10.00
+# Visual Studio 2008
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "ASE2OBJ", "ASE2OBJ\ASE2OBJ.vcproj", "{69D1A024-C8A9-4E31-B460-19E004D957D3}"
+	ProjectSection(ProjectDependencies) = postProject
+		{015EA9D3-85F2-4C4E-BFC3-430AC59093B9} = {015EA9D3-85F2-4C4E-BFC3-430AC59093B9}
+	EndProjectSection
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "picomodel", "picomodel\picomodel.vcproj", "{015EA9D3-85F2-4C4E-BFC3-430AC59093B9}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Win32 = Debug|Win32
+		Release|Win32 = Release|Win32
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{69D1A024-C8A9-4E31-B460-19E004D957D3}.Debug|Win32.ActiveCfg = Debug|Win32
+		{69D1A024-C8A9-4E31-B460-19E004D957D3}.Debug|Win32.Build.0 = Debug|Win32
+		{69D1A024-C8A9-4E31-B460-19E004D957D3}.Release|Win32.ActiveCfg = Release|Win32
+		{69D1A024-C8A9-4E31-B460-19E004D957D3}.Release|Win32.Build.0 = Release|Win32
+		{015EA9D3-85F2-4C4E-BFC3-430AC59093B9}.Debug|Win32.ActiveCfg = Debug|Win32
+		{015EA9D3-85F2-4C4E-BFC3-430AC59093B9}.Debug|Win32.Build.0 = Debug|Win32
+		{015EA9D3-85F2-4C4E-BFC3-430AC59093B9}.Release|Win32.ActiveCfg = Release|Win32
+		{015EA9D3-85F2-4C4E-BFC3-430AC59093B9}.Release|Win32.Build.0 = Release|Win32
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal
